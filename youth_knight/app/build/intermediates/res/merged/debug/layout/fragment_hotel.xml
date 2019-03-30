@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinknormal"
+    tools:context="com.example.hsu.youth_knight.schule.hotel">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/mewschulename"
+            android:textSize="25dp"
+            android:textColor="#C71585"
+            android:id="@+id/hotel_t_name"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:id="@+id/hotel_image"
+            />
+        <com.google.android.gms.maps.MapView
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            class="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/hotel_map"/>
+
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mewschulename"
+            android:textSize="25dp"
+            android:textColor="#C71585"
+            android:layout_below="@+id/hotel_map"
+            android:id="@+id/hotel_t_address"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mewschulename"
+            android:textSize="25dp"
+            android:textColor="#C71585"
+            android:layout_below="@+id/hotel_map"
+            android:id="@+id/hotel_t_decripse"/>
+        <Button
+            android:paddingTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_below="@+id/hotel_t_decripse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/hotel_bt_google"
+            android:text="google it"
+            android:background="@drawable/text_view_border"/>
+        <Button
+            android:paddingTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_below="@+id/hotel_bt_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/hotel_bt_addit"
+            android:text="add"
+            android:background="@drawable/text_view_border"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinknormal"
+
+
+    tools:context="com.example.hsu.youth_knight.schule.newschule">
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/mewschulename"
+        android:textSize="25dp"
+        android:textColor="#C71585"
+        android:id="@+id/newschule_t_name"/>
+       <EditText
+           android:layout_marginTop="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:background="@drawable/text_view_border"
+           android:id="@+id/newschule_ed_name"
+           android:layout_below="@+id/newschule_t_name"
+
+           android:textSize="25dp"/>
+
+    <TextView
+        android:layout_below="@+id/newschule_ed_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="25dp"
+        android:text="出發日期"
+        android:textColor="#C71585"
+        android:id="@+id/go"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/go"
+        android:text="@string/mewschulename"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/text_view_border"
+        android:id="@+id/newschule_t_godate"/>
+    <TextView
+        android:layout_below="@+id/newschule_t_godate"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="25dp"
+        android:text="天數"
+        android:textColor="#C71585"
+        android:id="@+id/day"
+        />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="1"
+        android:inputType="number"
+        android:background="@drawable/text_view_border"
+        android:id="@+id/newschule_ed_day"
+
+        android:layout_below="@+id/day">
+
+    </EditText>
+
+</RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

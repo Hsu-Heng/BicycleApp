@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsu.youth_knight.schule.Fragment_schule">
+
+<FrameLayout
+    android:id="@+id/layout_schule_frame"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/sunn"
+        android:scaleType="center"/>
+    <TextView
+        android:id="@+id/t_schule_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="hey"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/t_schule_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="date"
+        android:textColor="#FFFFFF"/>
+</FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_schule_linear"
+        android:layout_below="@+id/layout_schule_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+</RelativeLayout>

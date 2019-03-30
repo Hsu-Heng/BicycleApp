@@ -1,0 +1,12 @@
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4E1"
+    android:id="@+id/recycle"
+    android:scrollbars="vertical"
+    tools:context="com.example.hsu.youth_knight.schule.Allschule"
+    >
+
+
+</android.support.v7.widget.RecyclerView>

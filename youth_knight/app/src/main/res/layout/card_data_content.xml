@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/pinknormal"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:paddingTop="30dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="25dp"
+        android:id="@+id/textView2" />
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/card_data_content_imag1"
+        android:layout_below="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/card_data_content_imag1"
+        android:id="@+id/card_data_content_imag2"
+        android:layout_below="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/card_data_content_imag2"
+        android:id="@+id/card_data_content_imag3"
+        android:layout_below="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/card_data_content_imag3"
+        android:id="@+id/card_data_content_imag4"
+        android:layout_below="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_below="@+id/card_data_content_imag1"
+        android:layout_width="wrap_content"
+        android:id="@+id/card_data_content_address"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="地址"/>
+    <TextView
+
+        android:layout_below="@+id/card_data_content_address"
+        android:layout_width="wrap_content"
+        android:id="@+id/card_data_content_addressreal"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="地址"/>
+    <FrameLayout
+        android:layout_below="@+id/card_data_content_addressreal"
+        android:layout_width="match_parent"
+        android:id="@+id/card_data_content_map"
+        android:layout_height="175dp">
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_data_content_map"
+        android:text="電話"
+        android:textSize="20dp"
+        android:id="@+id/card_data_content_phone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_data_content_phonenum"
+        android:layout_below="@+id/card_data_content_phone"
+        android:text="022659784"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_data_content_it"
+        android:textSize="20dp"
+        android:text="網站"
+        android:layout_below="@+id/card_data_content_phonenum"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_data_content_url"
+
+        android:textSize="20dp"
+        android:layout_below="@+id/card_data_content_it"
+        />
+    <Button
+        android:background="@drawable/text_view_border"
+        android:text="加入行程"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_data_content_url"/>
+
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

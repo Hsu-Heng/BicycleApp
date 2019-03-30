@@ -1,0 +1,37 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsu.youth_knight.schule.schuleday">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/Imageschuleday"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"
+       />
+    <TextView
+        android:id="@+id/schuleday_name"
+        android:paddingTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="hey"/>
+    <TextView
+        android:id="@+id/schuleday_date"
+        android:paddingTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="hello"/>
+</FrameLayout>
+    <ListView
+        android:id="@+id/schuleday_list"
+        android:paddingTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</android.support.design.widget.CoordinatorLayout>

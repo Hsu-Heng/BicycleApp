@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsu.youth_knight.seeattractions">
+    <Spinner
+        android:layout_marginTop="60dp"
+        android:id="@+id/planets_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <Spinner
+        android:layout_marginTop="105dp"
+        android:id="@+id/planets_spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_marginTop="135dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/attraction_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</FrameLayout>
